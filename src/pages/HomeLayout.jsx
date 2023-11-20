@@ -1,14 +1,14 @@
 import { Outlet, useNavigation } from "react-router-dom";
-import { Loading } from "../components";
+import { Loading, Navbar, NavLinks } from "../components";
 
 const HomeLayout = () => {
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
   return (
     <div>
-      {/* <Navbar>
+      <Navbar>
         <NavLinks />
-      </Navbar> */}
+      </Navbar>
       {isLoading ? (
         <Loading />
       ) : (

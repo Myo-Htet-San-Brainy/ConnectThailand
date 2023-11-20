@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom";
 const links = [
   { id: 1, url: "/", text: "home" },
-  { id: 2, url: "about", text: "about" },
-  { id: 3, url: "products", text: "products" },
-  { id: 4, url: "cart", text: "cart" },
-  { id: 5, url: "checkout", text: "checkout" },
-  { id: 6, url: "orders", text: "orders" },
+  { id: 3, url: "inequality", text: "Digital Divide" },
+  { id: 4, url: "solutions", text: "Solutions To Digital inequality" },
+  { id: 5, url: "callToAction", text: "Call To Action" },
+  { id: 2, url: "aboutUs", text: "about us" },
 ];
 
 const NavLinks = () => {
