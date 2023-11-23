@@ -6,6 +6,7 @@ import PromoteRecyclingImage from "./promoteRecycling.jfif";
 import RaiseAwarenessImage from "./raiseAwareness.jfif";
 import MyoHtetSan from "./myohtetsan.jpeg";
 import NawLinnLinnThantZin from "./nawlinnlinnthantzin.jpg";
+import ShoonLaeThanTun from "./shoonlaethantun.jpg";
 
 // CALL TO ACTION CARDS DATA
 export const callToActionCards = [
@@ -47,7 +48,7 @@ export const callToActionCards = [
 export const aboutUsPhotos = [
   { id: nanoid(), image: MyoHtetSan },
   { id: nanoid(), image: NawLinnLinnThantZin },
-  { id: nanoid(), image: Image },
+  { id: nanoid(), image: ShoonLaeThanTun },
 ];
 
 //ABOUT US PEOPLE
@@ -63,6 +64,12 @@ export const people = [
     id: nanoid(),
     name: "Naw Linn Linn Thant Zin",
     about: "Hey there! If u r on laptop, u'll see me sleeping. Me? I sleep.",
+  },
+  {
+    id: nanoid(),
+    name: "Shoon Lae Than Tun",
+    about:
+      "Hello, I'm Shoon Lae Than Tun, Shoon for short. Embracing my first year at university, I find joy in programming and graphic design. Fluent in English, Myanmar (my mother tongue), and dabbling in French. I enjoy traveling, exploring new places. And if u r on the laptop, you can see me taking mirror selfie.",
   },
 ];
 

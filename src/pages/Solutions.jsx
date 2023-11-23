@@ -10,7 +10,7 @@ const Solutions = () => {
   return (
     <div>
       {/* Animation */}
-      <motion.div
+      {/* <motion.div
         className="slide-in"
         initial={{ scaleY: 0 }}
         animate={{ scaleY: 0 }}
@@ -23,7 +23,7 @@ const Solutions = () => {
         animate={{ scaleY: 0 }}
         exit={{ scaleY: 0 }}
         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-      />
+      /> */}
       {/* TITLE */}
       <SectionTitle text="Initiatives and solutions trying to solve the divide" />
       {/* CONTENT */}
