@@ -7,3 +7,23 @@
     @apply mx-auto max-w-6xl px-8;
   }
 }
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #90ee90;
+  transform-origin: bottom;
+}
+
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #90ee90;
+  transform-origin: top;
+}

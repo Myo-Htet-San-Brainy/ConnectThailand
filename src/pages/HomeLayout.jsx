@@ -5,7 +5,7 @@ const HomeLayout = () => {
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
   return (
-    <div>
+    <>
       <Navbar>
         <NavLinks />
       </Navbar>
@@ -16,7 +16,7 @@ const HomeLayout = () => {
           <Outlet />
         </section>
       )}
-    </div>
+    </>
   );
 };
 

@@ -5,3 +5,7 @@ export { default as Gallery } from "./Gallery";
 export { default as GalleryItems } from "./GalleryItems";
 export { default as SectionTitle } from "./SectionTitle";
 export { default as Paragraph } from "./Paragraph";
+export { default as ImageText } from "./ImageText";
+export { default as CallToActionCard } from "./CallToActionCard";
+export { default as AboutUsPhotos } from "./AboutUsPhotos";
+export { default as AboutUsAccordion } from "./AboutUsAccordion";
