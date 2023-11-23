@@ -5,7 +5,7 @@ import ShareResImage from "./shareRes.jfif";
 import PromoteRecyclingImage from "./promoteRecycling.jfif";
 import RaiseAwarenessImage from "./raiseAwareness.jfif";
 import MyoHtetSan from "./myohtetsan.jpeg";
-import NawLinnLinnThantZin from "./nawlinnlinnthantzin.jpg";
+import NawLinnLinnThantZin from "./carol.jpg";
 import ShoonLaeThanTun from "./shoonlaethantun.jpg";
 
 // CALL TO ACTION CARDS DATA
@@ -63,7 +63,8 @@ export const people = [
   {
     id: nanoid(),
     name: "Naw Linn Linn Thant Zin",
-    about: "Hey there! If u r on laptop, u'll see me sleeping. Me? I sleep.",
+    about:
+      "Hey! I am an ICT student. I like to do drawing, dancing and spending time with my friends. I know Burmese(native), English(fluent) and Korean(not bad). And if you r on a laptop, u can check out my pic, I am the one with pink purse.",
   },
   {
     id: nanoid(),
