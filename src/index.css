@@ -27,3 +27,8 @@
   background-color: #90ee90;
   transform-origin: top;
 }
+
+.page {
+  position: absolute;
+  left: -100%;
+}

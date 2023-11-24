@@ -10,8 +10,15 @@ import {
 const Inequality = () => {
   return (
     <div>
-      {/* Animation */}
-      {/* <motion.div
+      <motion.div
+        key={"Inequality"}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ ease: "easeOut", duration: 2 }}
+      >
+        {/* Animation */}
+        {/* <motion.div
         className="slide-in"
         initial={{ scaleY: 0 }}
         animate={{ scaleY: 0 }}
@@ -25,37 +32,38 @@ const Inequality = () => {
         exit={{ scaleY: 0 }}
         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
       /> */}
-      {/* TITLE */}
-      <SectionTitle text="A glance at Thailand's digital divide" />
-      {/* Explanation */}
-      <div className="mt-8">
-        <Paragraph text={digitalInequalityThailand} />
-      </div>
-      {/* STATISTICS PIC */}
-      <div className="mt-16 lg:w-2/3 lg:h-2/3 mx-auto">
-        <img
-          src={Statistics}
-          alt="Thailand's digital divide Statistics"
-          className="object-cover"
-        />
-      </div>
-      <ImageText text="Some Statistics showing digital divide between rural and urban Thailand" />
-      {/* DOWNLOAD TO LEARN MORE */}
-      <h1 className="mt-16 capitalize text-primary-content bg-primary rounded-sm p-4 ">
-        To Learn More, please download this{" "}
-        <a
-          className="uppercase font-bold underline hover:text-white"
-          href={learnMoreThaiDigitalDivideLink}
-        >
-          link
-        </a>
-      </h1>
-      {/* BUTTON NAVIGATING TO INEQUALITY */}
-      <div className="text-center">
-        <NavLink to="/solutions" className="btn btn-secondary mt-5">
-          Solutions to this digital divide &#128512;
-        </NavLink>
-      </div>
+        {/* TITLE */}
+        <SectionTitle text="A glance at Thailand's digital divide" />
+        {/* Explanation */}
+        <div className="mt-8">
+          <Paragraph text={digitalInequalityThailand} />
+        </div>
+        {/* STATISTICS PIC */}
+        <div className="mt-16 lg:w-2/3 lg:h-2/3 mx-auto">
+          <img
+            src={Statistics}
+            alt="Thailand's digital divide Statistics"
+            className="object-cover"
+          />
+        </div>
+        <ImageText text="Some Statistics showing digital divide between rural and urban Thailand" />
+        {/* DOWNLOAD TO LEARN MORE */}
+        <h1 className="mt-16 capitalize text-primary-content bg-primary rounded-sm p-4 ">
+          To Learn More, please download this{" "}
+          <a
+            className="uppercase font-bold underline hover:text-white"
+            href={learnMoreThaiDigitalDivideLink}
+          >
+            link
+          </a>
+        </h1>
+        {/* BUTTON NAVIGATING TO INEQUALITY */}
+        <div className="text-center">
+          <NavLink to="/solutions" className="btn btn-secondary mt-5">
+            Solutions to this digital divide &#128512;
+          </NavLink>
+        </div>
+      </motion.div>
     </div>
   );
 };
