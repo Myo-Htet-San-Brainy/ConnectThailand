@@ -5,7 +5,13 @@ import { callToActionCards } from "../assets/data";
 
 const CallToAction = () => {
   return (
-    <div>
+    <motion.div
+      key={"CallToAction"}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ ease: "easeOut", duration: 2 }}
+    >
       {/* Animation */}
       {/* <motion.div
         className="slide-in"
@@ -45,7 +51,7 @@ const CallToAction = () => {
           About the creators of this website &#x1F528;&#x1F3E2;
         </NavLink>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

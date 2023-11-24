@@ -49,9 +49,5 @@ const router = createBrowserRouter([
 ]);
 
 export default function App() {
-  return (
-    <AnimatePresence>
-      <RouterProvider router={router} />
-    </AnimatePresence>
-  );
+  return <RouterProvider router={router} />;
 }
